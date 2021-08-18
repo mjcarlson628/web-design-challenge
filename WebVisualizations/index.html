@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="assets/reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Humidity</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Latitude Dashboard</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a href="index.html" style="text-decoration: none;">
+            <a href="#" style="text-decoration: none;">
                 <h1>Latitude</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,17 +27,17 @@
                     Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
-                    <a class="dropdown-item" href="humidity.html">Humidity</a>
-                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    <a class="dropdown-item" href="visualizations/maxtemp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="visualizations/windspeed.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Comparison</a>
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
                     </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="data.html">Data</a>
                 </li>
                 </ul>
             </div>
@@ -48,12 +48,12 @@
 
                 <div class="col-md-6">
                     <article>                    
-                        <h2>Humidity</h2>
+                        <h2>Summary: Latitude vs. X</h2>
                         <p>
-                            <a href="AllHumidity.png" title="Max Humidity" target="_blank">
-                                <img src='AllHumidity.png'>
+                            <a href="assets/AllTemp.png" title="Max Temperature">
+                                <img class="floatleft" src="assets/AllTemp.png">
                             </a>
-                            High humidity was found at all latitudes and especially near the equator.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </article>
                 </div>
@@ -62,23 +62,23 @@
                         <h4>Visualizations</h4>
                         <div class="row">
                             <div class="col-3 col-md-6">
-                                <a href="maxtemp.html" title="Max Temperature">
-                                    <img src="AllTemp.png">
+                                <a href="visualizations/maxtemp.html" title="Max Temperature">
+                                    <img src="assets/AllTemp.png">
                                 </a>
                             </div>
                             <div class="col-3 col-md-6">
-                                <a href="#" title="Humidity">
-                                    <img src="AllHumidity.png">
+                                <a href="visualizations/humidity.html" title="Humidity">
+                                    <img src="assets/AllHumidity.png">
                                 </a>
                             </div>
                             <div class="col-3 col-md-6">
-                                <a href="cloudiness.html" title="Cloudiness">
-                                    <img src='AllClouds.png'>
+                                <a href="visualizations/cloudiness.html" title="Cloudiness">
+                                    <img src="assets/AllClouds.png">
                                 </a>
                             </div>
                             <div class="col-3 col-md-6">
-                                <a href="windspeed.html" title="Wind Speed">
-                                    <img src="AllWind.png">
+                                <a href="visualizations/windspeed.html" title="Wind Speed">
+                                    <img src="assets/AllWind.png">
                                 </a>
                             </div>
                           </div>
