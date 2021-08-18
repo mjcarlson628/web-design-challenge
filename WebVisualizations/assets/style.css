@@ -33,7 +33,7 @@ h2 {
     background-color:white;
     color: forestgreen;
 }
-h3 {
+h4 {
     background-color:white;
     color:forestgreen;
 }
@@ -44,4 +44,13 @@ article {
 }
 p {
     margin:25px;
+}
+img {
+    margin: 10px;
+    width: 100%;
+}
+.floatleft {
+    margin: 25px;
+    width: 50%;
+    float: left;
 }
