@@ -1,5 +1,6 @@
 body {
     background-color: lightsteelblue;
+    text-decoration: none;
 }
 .container {
     background-color:white;
@@ -26,8 +27,8 @@ body {
 
 h1 {
     background-color:forestgreen;
+    padding:10px;
     color: white;
-    padding: 10px;
 }
 h2 {
     background-color:white;
@@ -53,4 +54,28 @@ img {
     margin: 25px;
     width: 50%;
     float: left;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: forestgreen !important;
+    }
+    article {
+        padding: 0px;
+        border: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    p {
+        margin:0px;
+    }
+    .floatleft {
+        margin: 10px;
+        width: 40%;
+    }
 }
