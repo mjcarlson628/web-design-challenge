@@ -67,6 +67,18 @@ img {
     float: left;
 }
 
+tr{
+    overflow-x: scroll !important
+}
+th {
+    font-size:small;
+    font-weight:bold;
+    padding:10px;
+}
+td {
+    padding: 10px;
+}
+
 
 @media (max-width: 600px) {
     body {
