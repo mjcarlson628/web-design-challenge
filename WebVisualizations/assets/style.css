@@ -67,12 +67,10 @@ img {
     float: left;
 }
 
-tr{
-    overflow-x: scroll !important
-}
 th {
     font-size:small;
     font-weight:bold;
+    text-align:center;
     padding:10px;
 }
 td {
